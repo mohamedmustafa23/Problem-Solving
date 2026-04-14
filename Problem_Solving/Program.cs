@@ -6,12 +6,20 @@ namespace Problem_Solving
     {
         static void Main(string[] args)
         {
-            int[] arr = [3, 2, 2, 5, 3];
-            RemoveElement removeElement = new RemoveElement();
+            //Array
+            //#27 Remove Element
+            //int[] arr = [ 3, 2, 2, 4, 5];
+            //RemoveElement removeElement = new RemoveElement();
 
-            int newarr = removeElement.RemoveElementFunction(arr, 3);
+            //int result = removeElement.RemoveElementFunction(arr, 2);
 
-            Console.WriteLine(newarr);
+            //Console.WriteLine(newarr);
+
+            //#26 Remove Duplicates from Sorted Array
+            int[] arr = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+            int result = RemoveDuplicates.RemoveDuplicateFunction(arr);
+            Console.WriteLine(result);
+
         }
     }
 }
