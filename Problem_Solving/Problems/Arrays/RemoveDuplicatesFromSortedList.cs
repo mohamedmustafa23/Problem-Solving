@@ -2,16 +2,6 @@
 {
     public static class RemoveDuplicatesFromSortedList
     {
-        
-         public class ListNode {
-             public int val;
-             public ListNode next;
-             public ListNode(int val=0, ListNode next=null) 
-            {
-                 this.val = val;
-                 this.next = next;
-             }
-         }
         public static ListNode DeleteDuplicates(ListNode head)
         {
             ListNode current = head;
