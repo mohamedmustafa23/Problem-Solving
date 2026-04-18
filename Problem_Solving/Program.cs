@@ -1,4 +1,5 @@
 ﻿using Problem_Solving.Problems.Arrays;
+using Problem_Solving.Problems.Recursion;
 
 namespace Problem_Solving
 {
@@ -33,6 +34,14 @@ namespace Problem_Solving
             //RemoveDuplicatesFromSortedList2.DeleteDuplicates(Head);
 
             //ListNode.PrintList(Head);
+
+            //#82 Remove Duplicates from Sorted List2
+            //ListNode firstNode = ListNode.BuildList(new int[] { 1, 2, 3});
+            //ListNode scondNode = ListNode.BuildList(new int[] { 2, 2, 3});
+
+            //ListNode result = MergeTwoSortedLists.MergeTwoLists(firstNode, scondNode);
+
+            //ListNode.PrintList(result);
 
         }
     }
