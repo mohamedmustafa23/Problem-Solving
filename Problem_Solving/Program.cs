@@ -1,5 +1,4 @@
-﻿using Problem_Solving.Problems.Arrays;
-using Problem_Solving.Problems.Recursion;
+﻿using Problem_Solving.Problems.ArraysAndLinkedList.Recursion;
 
 namespace Problem_Solving
 {
@@ -43,6 +42,14 @@ namespace Problem_Solving
 
             //ListNode.PrintList(result);
 
+            //#2078 Two Furthest Houses With Different Colors
+
+            //Console.WriteLine(TwoFurthestHousesWithDifferentColors.Sum(new int[] { 1, 1, 1, 6, 1, 1, 1 },5));
+
+
+            //191 Number of 1 Bits
+
+            //Console.WriteLine(NumberOfOneBits.HammingWeight(11));
         }
     }
 }

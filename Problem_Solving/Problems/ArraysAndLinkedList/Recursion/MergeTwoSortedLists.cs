@@ -1,4 +1,6 @@
-﻿namespace Problem_Solving.Problems.Arrays
+﻿using Problem_Solving.Problems.Arrays;
+
+namespace Problem_Solving.Problems.ArraysAndLinkedList.Recursion
 {
     public static class MergeTwoSortedLists
     {
